@@ -6,6 +6,8 @@ def encrypt(text, s):
         else:
             result += chr((ord(char) + s - 97) % 26 + 97)
     return result
+
+
 text = "anil"
 s = 4
 print("Text", text)
